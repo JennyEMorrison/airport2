@@ -5,7 +5,6 @@ class Plane
   end
 
   def leaving?
-    true
     p "No longer in the airport" 
   end
 end
