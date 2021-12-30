@@ -7,7 +7,7 @@ describe Airport do
     expect(plane).to be_landing
   end
     
-  it 'raises an error message when airport is full' do
+  it 'ensures that the airport cannot be filled above capacity' do
     over_capacity = Airport::DEFAULT_CAPACITY + 1
     over_capacity.times do
       subject.plane_landing
