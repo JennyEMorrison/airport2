@@ -23,14 +23,3 @@ describe Airport do
     end
   end
 end
-
-#it {is_expected.to respond_to(:plane_landing) #.with(1).argument }
-  
-# describe 'plane_landing'
-#   it 'raises an error message when full' do
-#     Airport::DEFAULT_CAPACITY.times do
-#       subject.plane_landing Plane.new
-#     end
-#     expect { subject.plane_landing Plane.new }.to raise_error 'Cannot land plane, the airport is full'
-#   end
-# end

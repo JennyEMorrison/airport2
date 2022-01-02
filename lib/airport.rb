@@ -28,10 +28,3 @@ class Airport
     @planes.count
   end
 end
-
-# def leaving?
-#   @plane.leaving?
-#   if taking_off
-#     leaving? == true
-#   end
-# end
